@@ -1,0 +1,24 @@
+{
+	"name": "aleskafka/ComponentMacro",
+	"type": "library",
+	"description": "Extends Latte with simple Component Model",
+	"keywords": ["latte", "component", "templating"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ales Kafka"
+		}
+	],
+	"require": {
+		"php": ">=5.3"
+	},
+	"require": {
+	},
+	"require-dev": {
+		"latte/latte": "~2.3",
+		"nette/tester": "~1.3"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	}
+}

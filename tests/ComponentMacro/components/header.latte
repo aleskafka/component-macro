@@ -1,0 +1,7 @@
+{default $image=>'', $title=>''}
+<div class="header">
+	<div n:if="$image" class="header-image"><img src="{$image}"></div>
+	<h1 n:key="title">{$title}</h1>
+
+	<Navigation n:ifset="$navigation" n:component="$navigation" />
+</div>
