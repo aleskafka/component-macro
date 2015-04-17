@@ -1,8 +1,8 @@
 {
-	"name": "aleskafka/ComponentMacro",
+	"name": "aleskafka/component-macro",
 	"type": "library",
 	"description": "Extends Latte with simple component model",
-	"keywords": ["latte", "component", "templating"],
+	"keywords": ["latte", "macro", "component", "templating"],
 	"license": "MIT",
 	"authors": [
 		{
